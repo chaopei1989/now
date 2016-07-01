@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f2">
+
+    <com.nao.im.ui.activity.view.OnLayoutListView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/edit_layout"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/av_dp_16"
+        android:listSelector="@color/transparent" />
+
+    <RelativeLayout
+        android:id="@+id/edit_layout"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/av_dp_50"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:layout_marginLeft="@dimen/av_dp_12"
+            android:layout_marginRight="@dimen/av_dp_12"
+            android:id="@+id/msg_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/msg_send"
+            android:background="@null"
+            android:textColor="@color/color_50"
+            android:textSize="@dimen/av_sp_15" />
+
+        <ImageView
+            android:id="@+id/msg_send"
+            android:layout_width="@dimen/av_dp_52"
+            android:layout_height="@dimen/av_dp_50"
+            android:paddingRight="@dimen/av_dp_12"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selector_btn_biu"
+            android:gravity="center"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/color_8e"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

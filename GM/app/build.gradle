@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+
+def APP_BUILD = '1044'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId 'com.nao.im'
+        minSdkVersion 11
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0.0" + '.' + APP_BUILD
+    }
+    signingConfigs {
+        release {
+            storeFile new File('nao')
+            storePassword '19891024'
+            keyAlias 'nao'
+            keyPassword '19891024'
+        }
+        debug {
+            storeFile new File('nao')
+            storePassword '19891024'
+            keyAlias 'nao'
+            keyPassword '19891024'
+        }
+        pro_debug {
+            storeFile new File('nao')
+            storePassword '19891024'
+            keyAlias 'nao'
+            keyPassword '19891024'
+        }
+    }
+    buildTypes {
+        pro_debug {
+            signingConfig signingConfigs.pro_debug
+            minifyEnabled false
+            debuggable true
+        }
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled true
+            proguardFiles 'proguard.cfg'
+        }
+    }
+    applicationVariants.all{ variant->
+        variant.outputs.each { output->
+            if(variant.buildType.name.equals('release')){
+                // APK输出文件名规则：aiyou-版本名-市场-release.apk
+                def releaseApkName = applicationId + '_'+ versionName + '.' + APP_BUILD + '_v' + versionCode + '_release' + '_' + releaseTime() +
+                        '.apk'
+                // appReleaseDir对应local.properties里面定义的路径，再加上日期（格式：201503011230）文件夹
+                output.outputFile = new File("E:\\云盘同步文件夹\\now\\版本迭代", releaseApkName)
+            }
+            if(variant.buildType.name.equals('pro_debug')){
+                // APK输出文件名规则：aiyou-版本名-市场-release.apk
+                def debugApkName = applicationId + '_'+ versionName + '_v' + versionCode + '_debug' + '_' + releaseTime() +
+                        '.apk'
+                // appReleaseDir对应local.properties里面定义的路径，再加上日期（格式：201503011230）文件夹
+                output.outputFile = new File("E:\\云盘同步文件夹\\now\\版本迭代", debugApkName)
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':library')
+}
+
+def releaseTime() {
+    return new Date().format("yyyyMMddHHmmss")
+}

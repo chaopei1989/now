@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\avoscloud-push-v3.11.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a49ae7b8030c116bf9d1074af3df3b6a01a81ecd">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\avoscloud-push-v3.11.1-2602e290f43336aa026bdd089816ad824daa814f.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\Java-WebSocket-1.2.0-leancloud.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="221fb6750fcf164a85a98bbbafe0879e18868562">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\Java-WebSocket-1.2.0-leancloud-88df76bc895c55d371cdc8f0b181e86a5b49b51d.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\libs\open_sdk_r5043_lite.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1f213f03dfe8868d0b24898234f6eefb67015a4a">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\open_sdk_r5043_lite-3dc7ecf717d14ca73c2496c03559f73266cd26c2.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\gson-2.3.1-29e873300bd3e418139b34d84c8b3ded65b33465.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-ef8aaac6b557ba50c355fa577eef3c3993d866af.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\okhttp-ws-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69206d28966656052a982ceded583abdeb41cf63">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\okhttp-ws-2.4.0-612e885cbc8a0045fec3bc5111adc5cc267f7710.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\httpmime-4.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06f5dec38c3a33395c0f1456925b1cf21dcef961">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\httpmime-4.2.4-66034cb2fae2058dc3f52a7a688fb6b1acabccc4.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\jsonassert-1.2.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2cb01fdff70caf688561d877cea55451ab164527">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\jsonassert-1.2.3-507e698b73cedf4c3f7925e669331406d1032968.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\okio-1.6.0-6c38551ce97e3d9d378c0de456aa9f6fb1039067.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\classes-2df8aead3391df6795ca5213407cba1b0386c46e.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\litepal-1.3.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57d9e996b346e11cffe2e8d94afb3ef668625baf">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\litepal-1.3.0-74d5ff70356ab7e4ba37968a643e6915f4a32cee.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-38583efb36aeb1735cf118c48770b2578234eda4.jar" />
+    </item>
+    <item
+        jar="D:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-0bb0540704196004630adfc9c9016d3bfb057bf3.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\json-20090211_1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dd3e57b26450cd682f5991c537ab44ba1fbbdb54">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\json-20090211_1-b33a7cc269c3ba05e8d34553061cb220ccb085e6.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\android-async-http-1.4.8.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="77bbfe240e437ecb396d982afa0d3bd4f9090ba7">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.8-c46274667cd83e240a6f35d4d729d9592beb7069.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\libs\umeng-analytics-v5.6.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b2705cbb19f52bb4d242458163a98d9e889c1292">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\umeng-analytics-v5.6.1-7ded3dc7b25ee6966b2a7c4a2c1751d8a3407086.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\avoscloud-sdk-v3.11.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68113d268aa4e3cde409f9866c3c9ea2067ff679">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\avoscloud-sdk-v3.11.1-813c4beb87ad095a76c9ad525f2f9ac652bf3ba7.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ed90325cb888fbe3c8bac9618b381b8dd7962ff8">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\classes-8e286c620deba447c4951cdab2536256bda7deb5.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\fastjson.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="066d3e91b64bbdb32cfa637a812604deb719c125">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\fastjson-dfeaa500b48f432e7fe3e74ce69a81a31fc2853b.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\hamcrest-core-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="859db73d92c486964e00ee4a62108312112933e2">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\hamcrest-core-1.3-7a5fc20a52d026c9b33893e7e7fc30ae91a22dba.jar" />
+    </item>
+    <item
+        jar="D:\GitHub\now\trunk\GM\app\build\intermediates\exploded-aar\GM\library\unspecified\libs\hamcrest-library-1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6ccbe0b4605d06b48576646e5de038ef24eb833">
+        <dex dex="D:\GitHub\now\trunk\GM\app\build\intermediates\pre-dexed\debug\hamcrest-library-1.3-a7127ad7044714174adc0533623fdac71a8d0a10.jar" />
+    </item>
+
+</items>

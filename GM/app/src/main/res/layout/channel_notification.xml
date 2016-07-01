@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:background="@color/color_323131"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginLeft="@dimen/av_dp_10"
+        android:layout_width="@dimen/av_dp_44"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginLeft="@dimen/av_dp_10"
+        android:layout_weight="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="已经没有歌了"
+        android:layout_width="0dp"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:textColor="#aaaaaa"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/next"
+        android:padding="@dimen/av_dp_10"
+        android:layout_width="@dimen/av_dp_44"
+        android:layout_height="match_parent"
+        android:src="@drawable/next"
+        android:layout_marginLeft="10dp" />
+    <ImageView
+        android:padding="@dimen/av_dp_10"
+        android:id="@+id/like"
+        android:layout_width="@dimen/av_dp_44"
+        android:src="@drawable/like"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp" />
+    <ImageView
+        android:background="@color/color_3b3b3b"
+        android:padding="@dimen/av_dp_10"
+        android:id="@+id/exit"
+        android:src="@drawable/exit"
+        android:layout_width="@dimen/av_dp_36"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp" />
+
+</LinearLayout>

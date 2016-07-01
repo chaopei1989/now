@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.nao.im.ui.activity.view.ImmersiveView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/splash_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_bg" />
+
+    <View
+        android:id="@+id/splash_logo"
+        android:layout_marginTop="@dimen/av_dp_146"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/av_dp_110"
+        android:layout_height="@dimen/av_dp_102"
+        android:background="@drawable/splash_logo" />
+
+    <View
+        android:id="@+id/splash_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/splash_logo"
+        android:layout_width="@dimen/av_dp_90"
+        android:layout_height="@dimen/av_dp_18"
+        android:layout_marginTop="@dimen/av_dp_7"
+        android:background="@drawable/splash_desc" />
+
+    <Button
+        android:id="@+id/splash_enter_bottom"
+        android:textSize="@dimen/av_sp_19"
+        android:layout_width="@dimen/av_dp_177"
+        android:layout_height="@dimen/av_dp_48"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/av_dp_86"
+        android:background="@drawable/splash_enter_btn"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

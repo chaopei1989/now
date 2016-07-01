@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/av_dp_58">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="这是标题"
+            android:textColor="@color/color_33"
+            android:textSize="@dimen/av_sp_16" />
+
+        <View
+            android:id="@+id/search"
+            android:layout_width="@dimen/av_dp_32"
+            android:layout_height="@dimen/av_dp_32"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="@dimen/av_dp_12"
+            android:background="@drawable/selector_add" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_gravity="bottom"
+            android:background="@color/color_e5" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/av_dp_48"
+        android:gravity="center"
+        android:text="99+消息"
+        android:paddingRight="@dimen/av_dp_12"
+        android:textColor="@color/color_b4"
+        android:textSize="@dimen/av_sp_12"
+        android:layout_below="@+id/title_bar"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/new_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:id="@+id/user_icon_bg"
+        android:layout_width="@dimen/av_dp_72"
+        android:layout_height="@dimen/av_dp_72"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="@dimen/av_dp_66"
+        android:layout_height="@dimen/av_dp_66"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/av_dp_8"
+        android:text="未知"
+        android:textColor="@color/color_8c"
+        android:textSize="@dimen/av_sp_12" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name"
+        android:layout_marginLeft="@dimen/av_dp_24"
+        android:layout_marginRight="@dimen/av_dp_24"
+        android:layout_marginTop="@dimen/av_dp_32"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/play_state"
+            android:layout_width="@dimen/av_dp_11"
+            android:layout_height="@dimen/av_dp_13"
+            android:background="@drawable/play_state" />
+
+        <TextView
+            android:id="@+id/music_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/av_dp_6"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="没有歌曲 - 未知"
+            android:textColor="@color/color_b4"
+            android:textSize="@dimen/av_sp_14" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/av_dp_20"
+        android:layout_marginLeft="@dimen/av_dp_24"
+        android:layout_marginRight="@dimen/av_dp_24"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/btn_like"
+            android:layout_width="@dimen/av_dp_32"
+            android:layout_height="@dimen/av_dp_32"
+            android:background="@drawable/selector_btn_like" />
+
+        <View
+            android:id="@+id/btn_dislike"
+            android:layout_width="@dimen/av_dp_32"
+            android:layout_height="@dimen/av_dp_32"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/selector_btn_dislike" />
+
+        <!--<TextView-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginRight="@dimen/av_dp_8"-->
+        <!--android:layout_toLeftOf="@+id/btn_users"-->
+        <!--android:text="321位朋友正在听"-->
+        <!--android:textSize="@dimen/av_sp_12"-->
+        <!--android:textColor="@color/color_b4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+
+        <!--<View-->
+        <!--android:id="@+id/btn_users"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_width="@dimen/av_dp_32"-->
+        <!--android:layout_height="@dimen/av_dp_32"-->
+        <!--android:background="@drawable/selector_btn_users" />-->
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/search_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar"></FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/debug_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/second_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </LinearLayout>
+</RelativeLayout>

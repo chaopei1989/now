@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_f2"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/av_dp_24"
+        android:layout_marginRight="@dimen/av_dp_24"
+        android:layout_marginTop="@dimen/av_dp_24">
+
+        <EditText
+            android:id="@+id/search_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/av_dp_44"
+            android:layout_marginRight="@dimen/av_dp_43"
+            android:background="@drawable/edit_bg"
+            android:textColor="@color/color_50"
+            android:hint="请输入搜索内容"
+            android:textSize="@dimen/av_sp_15" />
+
+        <ProgressBar
+            android:id="@+id/progress_wait"
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/search"
+            android:padding="@dimen/av_dp_15"
+            android:layout_width="@dimen/av_dp_44"
+            android:layout_height="@dimen/av_dp_44"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:id="@+id/search"
+            android:layout_width="@dimen/av_dp_44"
+            android:layout_height="@dimen/av_dp_44"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:text="查找"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/av_sp_15" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/av_dp_24"
+        android:layout_marginRight="@dimen/av_dp_24"
+        android:layout_marginTop="@dimen/av_dp_10"
+        android:text="搜索结果"
+        android:textColor="@color/color_now_blue"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/result_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/av_dp_10"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/av_dp_0"
+        android:listSelector="@color/transparent" />
+</LinearLayout>

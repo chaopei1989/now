@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">闹</string>
+    <string name="action_login">登录</string>
+    <string name="action_logout">退出</string>
+    <string name="social_sso_logining">正在登录...</string>
+    <string name="social_sso_qq_not_instlled">QQ没有安装或版本较低</string>
+    <string name="social_sso_login_success">登录成功</string>
+    <string name="social_sso_login_timeout">登录超时，请重试</string>
+    <string name="social_sso_login_failed">登录失败，请重试</string>
+    <string name="social_sso_login_token_invalid">认证过期，请重新登录</string>
+    <string name="splash_now_desc">一起听音乐</string>
+    <string name="splash_enter_message">使用QQ账号登录</string>
+    <string name="splash_enter_message_have_login">进入频道</string>
+    <string name="splash_enter_message_login">重新登录</string>
+    <string name="default_channel_name">未加入频道</string>
+    <string name="splash_dialog_enter_channel">正在努力进入频道！</string>
+
+    <string name="commend_success">操作成功</string>
+    <string name="commend_failed">操作失败</string>
+    <string name="commend_duplicated">只能评价一次</string>
+    <string name="commend_later">暂无法点赞，请稍后重试</string>
+    <string name="commend_no_music">当前没有歌曲</string>
+    <string name="like_music">%s 喜欢这首歌</string>
+    <string name="dislike_music">%s 不喜欢这首歌</string>
+
+</resources>

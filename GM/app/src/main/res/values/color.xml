@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color 文件 新加的color请添加注释方便查找-->
+
+    <color name="transparent">#00000000</color>
+
+    <color name="transparent_60p">#99000000</color>
+
+    <color name="color_1a0">#1a000000</color>
+
+    <color name="color_4c0">#4c000000</color>
+
+    <color name="color_progress_white">#ffffff</color>
+
+    <color name="color_progress_grey">#a0ccff</color>
+
+    <color name="color_938e">#96938e</color>
+
+    <color name="color_background">#F7FCFF</color>
+
+    <color name="color_now_blue">#4898f9</color>
+
+    <color name="color_now_blue_deep">#2789ff</color>
+
+    <color name="color_50">#505050</color>
+
+    <color name="color_d8">#d8d8d8</color>
+
+    <color name="color_b1">#b1b1b1</color>
+    <color name="color_11">#111111</color>
+    <color name="color_33">#333333</color>
+    <color name="color_80">#808080</color>
+    <color name="color_8c">#8c8c8c</color>
+    <color name="color_8e">#8e8e8e</color>
+    <color name="color_e1">#e1e1e1</color>
+    <color name="color_e5">#e5e5e5</color>
+    <color name="color_d9">#d9d9d9</color>
+    <color name="color_b4">#b4b4b4</color>
+
+    <color name="color_fc">#fcfcfc</color>
+
+    <color name="color_f3">#f3f3f3</color>
+    <color name="color_f2">#f2f2f2</color>
+
+    <color name="color_e6">#e6e6e6</color>
+
+    <color name="color_f55">#ff5555</color>
+    <color name="color_fd20">#ffd200</color>
+    <color name="color_0fc60">#0fc600</color>
+    <color name="color_1ca50">#1ca500</color>
+
+    <color name="color_323131">#323131</color>
+
+    <color name="color_3b3b3b">#3b3b3b</color>
+
+    <color name="color_fd1">#ffd100</color>
+    <color name="color_f0c6">#f0c600</color>
+</resources>
